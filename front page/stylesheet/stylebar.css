@@ -1,5 +1,7 @@
-body {font-family: Arial;
-background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);}
+body {
+  font-family: Arial;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+}
 
 
 .tab {
@@ -19,38 +21,41 @@ background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);}
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  
+
   font-size: 17px;
 }
 
 
 .tab div:hover {
-  background-color:silver;
+  background-color: silver;
   color: white;
   transition: 0.4s;
 }
 
 
-#word{
-color: white;
+#word {
+  color: white;
 }
 
-#text{
+#text {
   background-color: #ddd;
-  
+
 }
-.tabcontent{
-  background:#2c3347;
+
+.tabcontent {
+  background: #2c3347;
   border-top: none;
   padding: 16px;
 }
-#active{
+
+#active {
   background: #2c3347;
   font-weight: bold;
   color: #ddd;
 }
-header{
-  background:#2c3347; 
+
+header {
+  background: #2c3347;
   padding: 20px;
   border: none;
 }
@@ -90,9 +95,11 @@ header{
   margin-right: 50px;
   transition: 0.7s;
 }
-.closebtn{
+
+.closebtn {
   transition: 0.7s;
 }
+
 .openbtn {
   font-size: 30px;
   cursor: pointer;
@@ -113,34 +120,37 @@ header{
   padding: 18px;
   color: white;
   padding-bottom: 50px;
-  
+
 }
 
-h2{
+h2 {
   display: inline;
 }
-#search:hover{
+
+#search:hover {
   background: silver;
 }
 
 
-center{
+center {
   text-decoration: underline;
-text-underline-position: under;
-text-decoration-color:white;
-text-decoration-style: double;
-text-decoration-thickness :2px;
-color: white;
-font-weight: bold;
+  text-underline-position: under;
+  text-decoration-color: white;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+  color: white;
+  font-weight: bold;
 }
-#highlight{
+
+#highlight {
   font-weight: bold;
   color: bisque;
 }
-#services{
+
+#services {
   color: silver;
-  padding: 45px ;
-  background:#2c3347 ;
+  padding: 45px;
+  background: #2c3347;
   text-align: justfy;
   letter-spacing: 2px;
   font-size: 15px;
@@ -152,18 +162,19 @@ font-weight: bold;
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  
+
 }
 
 /* Slides */
 .mySlides {
-  
+
   padding: 16px;
   text-align: center;
 }
 
 /* Next & previous buttons */
-#prev, #next {
+#prev,
+#next {
   cursor: pointer;
   position: absolute;
   top: 91%;
@@ -185,8 +196,9 @@ font-weight: bold;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-#prev:hover, #next:hover {
-  background-color: rgba(0,0,0,0.8);
+#prev:hover,
+#next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
 
@@ -206,9 +218,11 @@ font-weight: bold;
 }
 
 /* Add a background color to the active dot/circle */
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
+
 form {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -223,7 +237,7 @@ form {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px 0 30px 0;
-} 
+}
 
 /* style inputs and link buttons */
 input,
@@ -237,7 +251,8 @@ input,
   display: inline-block;
   font-size: 17px;
   line-height: 20px;
-  text-decoration: none; /* remove underline from anchors */
+  text-decoration: none;
+  /* remove underline from anchors */
 }
 
 input:hover,
@@ -326,57 +341,66 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+
   /* hide the vertical line */
   .vl {
     display: none;
   }
+
   /* show the hidden text on small screens */
   .hide-md-lg {
     display: block;
     text-align: center;
   }
 }
-#tabsearch{
+
+#tabsearch {
   float: right;
-   background: #2c3347;
-   border: 1px solid black;
-   border: none;
-   padding:1px;
-   border-radius: 1px;
-   padding-left: 7px;
-   
+  background: #2c3347;
+  border: 1px solid black;
+  border: none;
+  padding: 1px;
+  border-radius: 1px;
+  padding-left: 7px;
+
 
 }
-.container{
+
+.container {
   background-color: #2c3347;
   padding-top: 25px;
- 
+
 
 }
-.bottom-container{
-   margin-bottom: 250px;
+
+.bottom-container {
+  margin-bottom: 250px;
 }
-#foota{
+
+#foota {
   color: navy;
 }
-#foota:hover{
+
+#foota:hover {
   color: rgb(19, 19, 179);
 }
-footer{
+
+footer {
   background: transparent;
   padding: 1px;
-  background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+  background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.60) 100%);
   background-blend-mode: normal, multiply;
   box-shadow: 0px 2px 10px white;
   border-radius: 4px;
   padding-bottom: 60px;
 }
-.footer-centre{
+
+.footer-centre {
   text-align: center;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -389,14 +413,14 @@ footer{
 .fa-twitter {
   background: skyblue;
   color: white;
-   padding: 7px;
+  padding: 7px;
   border-radius: 9px;
 }
 
 .fa-google {
   background: tomato;
   color: white;
-   padding: 7px;
+  padding: 7px;
   border-radius: 9px;
 }
 
@@ -404,14 +428,14 @@ footer{
 .fa-youtube {
   background: RED;
   color: white;
-   padding: 7px;
+  padding: 7px;
   border-radius: 9px;
 }
 
 .fa-instagram {
   background: darkred;
   color: white;
-   padding: 7px;
+  padding: 7px;
   border-radius: 9px;
 }
 
@@ -420,7 +444,8 @@ footer{
   color: white;
   padding: 7px;
   border-radius: 9px;
-  }
-  .right{
-    text-align: center;
-  }
+}
+
+.right {
+  text-align: center;
+}
